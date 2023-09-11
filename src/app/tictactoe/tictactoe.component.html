@@ -1,0 +1,4 @@
+<h2>{{status_msg}}</h2>
+<div class="game-board">
+    <div *ngFor="let box of boxes" class="box"><button id="{{box.id}}" (click)="buttonClick($event)"></button></div>
+  </div>
